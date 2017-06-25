@@ -3,10 +3,10 @@
     <a:themeElements>
         <a:clrScheme name="Office">
             <a:dk1>
-                <a:sysClr lastClr="FF0000" val="windowText"/>
+                <a:sysClr lastClr="000000" val="windowText"/>
             </a:dk1>
             <a:lt1>
-                <a:sysClr lastClr="000000" val="window"/>
+                <a:sysClr lastClr="FFFFFF" val="window"/>
             </a:lt1>
             <a:dk2>
                 <a:srgbClr val="1F497D"/>
