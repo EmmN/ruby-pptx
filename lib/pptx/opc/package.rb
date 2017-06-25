@@ -107,8 +107,8 @@ module PPTX
 
         
         @parts.each do |name, _|
-          out.put_next_entry name
-          str = str + out.write marshal_part(name)
+          # out.put_next_entry name
+          str = str + marshal_part(name)
         end
 
         str       
