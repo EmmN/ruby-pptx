@@ -102,18 +102,6 @@ module PPTX
         buffer.string
       end
 
-      def to_string
-        str = ''
-
-        
-        @parts.each do |name, _|
-          # out.put_next_entry name
-          str = str + marshal_part(name)
-        end
-
-        str       
-      end
-
       private
       def default_part_names
         @default_part_names ||= Dir.glob(File.join(@base, '**/*'), File::FNM_DOTMATCH)
